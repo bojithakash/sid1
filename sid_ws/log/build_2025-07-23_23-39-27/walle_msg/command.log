@@ -1,4 +1,0 @@
-Invoking command in '/home/bojithakash68/sid_ws/build/walle_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bojithakash68/sid_ws/build/walle_msg -- -j16 -l16
-Invoked command in '/home/bojithakash68/sid_ws/build/walle_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bojithakash68/sid_ws/build/walle_msg -- -j16 -l16
-Invoking command in '/home/bojithakash68/sid_ws/build/walle_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bojithakash68/sid_ws/build/walle_msg
-Invoked command in '/home/bojithakash68/sid_ws/build/walle_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bojithakash68/sid_ws/build/walle_msg
