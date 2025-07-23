@@ -1,0 +1,59 @@
+[0.028s] Invoking command in '/home/bojithakash68/sid_ws/build/walle_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bojithakash68/sid_ws/src/walle_description -DCMAKE_INSTALL_PREFIX=/home/bojithakash68/sid_ws/install/walle_description
+[0.225s] -- The C compiler identification is GNU 11.4.0
+[0.381s] -- The CXX compiler identification is GNU 11.4.0
+[0.404s] -- Detecting C compiler ABI info
+[0.625s] -- Detecting C compiler ABI info - done
+[0.641s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.650s] -- Detecting C compile features
+[0.651s] -- Detecting C compile features - done
+[0.658s] -- Detecting CXX compiler ABI info
+[0.901s] -- Detecting CXX compiler ABI info - done
+[0.917s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.918s] -- Detecting CXX compile features
+[0.919s] -- Detecting CXX compile features - done
+[0.934s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.323s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.553s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.696s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.920s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.922s] -- Added test 'lint_cmake' to check CMake code style
+[1.923s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.927s] -- Added test 'xmllint' to check XML markup files
+[1.930s] -- Configuring done
+[1.938s] -- Generating done
+[1.942s] -- Build files have been written to: /home/bojithakash68/sid_ws/build/walle_description
+[1.956s] Invoked command in '/home/bojithakash68/sid_ws/build/walle_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bojithakash68/sid_ws/src/walle_description -DCMAKE_INSTALL_PREFIX=/home/bojithakash68/sid_ws/install/walle_description
+[1.961s] Invoking command in '/home/bojithakash68/sid_ws/build/walle_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bojithakash68/sid_ws/build/walle_description -- -j16 -l16
+[2.075s] Invoked command in '/home/bojithakash68/sid_ws/build/walle_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bojithakash68/sid_ws/build/walle_description -- -j16 -l16
+[2.102s] Invoking command in '/home/bojithakash68/sid_ws/build/walle_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bojithakash68/sid_ws/build/walle_description
+[2.123s] -- Install configuration: ""
+[2.123s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/launch
+[2.124s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/launch/display.launch.py
+[2.124s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/launch/gazebo.launch.py
+[2.124s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/meshes
+[2.125s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/meshes/base_link.stl
+[2.125s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/meshes/lidar_1.stl
+[2.126s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/meshes/caster_wheel_1.stl
+[2.127s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/meshes/right_wheel_1.stl
+[2.127s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/meshes/left_wheel_1.stl
+[2.128s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/urdf
+[2.128s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/urdf/walle_gazebo.xacro
+[2.128s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/urdf/walle_ros2_control.xacro
+[2.128s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/urdf/walle.xacro
+[2.129s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/urdf/materials.xacro
+[2.130s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/ament_index/resource_index/package_run_dependencies/walle_description
+[2.130s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/ament_index/resource_index/parent_prefix_path/walle_description
+[2.131s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/environment/ament_prefix_path.sh
+[2.131s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/environment/ament_prefix_path.dsv
+[2.132s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/environment/path.sh
+[2.132s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/environment/path.dsv
+[2.133s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/local_setup.bash
+[2.133s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/local_setup.sh
+[2.134s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/local_setup.zsh
+[2.134s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/local_setup.dsv
+[2.135s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/package.dsv
+[2.135s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/ament_index/resource_index/packages/walle_description
+[2.136s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/cmake/walle_descriptionConfig.cmake
+[2.136s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/cmake/walle_descriptionConfig-version.cmake
+[2.136s] -- Installing: /home/bojithakash68/sid_ws/install/walle_description/share/walle_description/package.xml
+[2.141s] Invoked command in '/home/bojithakash68/sid_ws/build/walle_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bojithakash68/sid_ws/build/walle_description

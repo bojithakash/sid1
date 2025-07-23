@@ -1,0 +1,125 @@
+[0.039s] Invoking command in '/home/bojithakash68/sid_ws/build/walle_controller': AMENT_PREFIX_PATH=/home/bojithakash68/sid_ws/install/walle_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bojithakash68/sid_ws/install/walle_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/bojithakash68/sid_ws/install/walle_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bojithakash68/sid_ws/build/walle_controller -- -j16 -l16
+[0.184s] [35m[1mConsolidate compiler generated dependencies of target simple_controller[0m
+[0.190s] [35m[1mConsolidate compiler generated dependencies of target noisy_controller[0m
+[0.229s] [ 20%] Built target simple_service_server
+[0.229s] [ 40%] Built target simple_tf_kinematics
+[0.233s] [ 60%] Built target simple_client_server
+[0.252s] [ 70%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[0.252s] [ 70%] Built target ament_cmake_python_copy_walle_controller
+[0.258s] [ 80%] [32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[0m
+[0.955s] running egg_info
+[0.957s] writing walle_controller.egg-info/PKG-INFO
+[0.958s] writing dependency_links to walle_controller.egg-info/dependency_links.txt
+[0.958s] writing top-level names to walle_controller.egg-info/top_level.txt
+[0.963s] reading manifest file 'walle_controller.egg-info/SOURCES.txt'
+[0.964s] writing manifest file 'walle_controller.egg-info/SOURCES.txt'
+[1.037s] [ 80%] Built target ament_cmake_python_build_walle_controller_egg
+[5.886s] In file included from [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/noisy_controller.cpp:1[m[K:
+[5.886s] [01m[K/home/bojithakash68/sid_ws/src/walle_controller/include/walle_controller/noisy_controller.hpp:[m[K In constructor ‘[01m[KNoisyController::NoisyController(const string&)[m[K’:
+[5.886s] [01m[K/home/bojithakash68/sid_ws/src/walle_controller/include/walle_controller/noisy_controller.hpp:26:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KNoisyController::left_wheel_prev_pos_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.887s]    26 |     double [01;35m[Kleft_wheel_prev_pos_[m[K;
+[5.887s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.887s] [01m[K/home/bojithakash68/sid_ws/src/walle_controller/include/walle_controller/noisy_controller.hpp:25:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble NoisyController::right_wheel_prev_pos_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.887s]    25 |     double [01;35m[Kright_wheel_prev_pos_[m[K;
+[5.887s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.887s] [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/noisy_controller.cpp:9:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.887s]     9 | [01;35m[KNoisyController[m[K::NoisyController(const std::string& name)
+[5.888s]       | [01;35m[K^~~~~~~~~~~~~~~[m[K
+[6.895s] [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:[m[K In constructor ‘[01m[KSimpleController::SimpleController(const string&)[m[K’:
+[6.895s] [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:28:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_pub_[m[K’ was not declared in this scope
+[6.895s]    28 |     [01;31m[Kodom_pub_[m[K = create_publisher<nav_msgs::msg::Odometry>("/walle_controller/odom", 10);
+[6.895s]       |     [01;31m[K^~~~~~~~~[m[K
+[6.907s] [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:28:34:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ was not declared in this scope
+[6.907s]    28 |     odom_pub_ = create_publisher<[01;31m[Knav_msgs[m[K::msg::Odometry>("/walle_controller/odom", 10);
+[6.907s]       |                                  [01;31m[K^~~~~~~~[m[K
+[6.907s] [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:28:17:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[6.907s]    28 |     odom_pub_ = [01;31m[Kcreate_publisher<nav_msgs::msg::Odometry>[m[K("/walle_controller/odom", 10);
+[6.907s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.907s] [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:28:58:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSimpleController::create_publisher<<expression error> >(const char [23], int)[m[K’
+[6.908s]    28 |     odom_pub_ = [01;31m[Kcreate_publisher<nav_msgs::msg::Odometry>("/walle_controller/odom", 10)[m[K;
+[6.908s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.908s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[6.908s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.908s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.908s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.908s]                  from [01m[K/home/bojithakash68/sid_ws/src/walle_controller/include/walle_controller/simple_controller.hpp:4[m[K,
+[6.908s]                  from [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:1[m[K:
+[6.908s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[6.909s]    73 | [01;36m[KNode[m[K::create_publisher(
+[6.909s]       | [01;36m[K^~~~[m[K
+[6.909s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.909s] [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:28:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.909s]    28 |     odom_pub_ = [01;31m[Kcreate_publisher<nav_msgs::msg::Odometry>("/walle_controller/odom", 10)[m[K;
+[6.909s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.921s] [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_msg_[m[K’ was not declared in this scope
+[6.922s]    33 |     [01;31m[Kodom_msg_[m[K.header.frame_id = "odom";
+[6.922s]       |     [01;31m[K^~~~~~~~~[m[K
+[6.942s] [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform_broadcaster_[m[K’ was not declared in this scope
+[6.942s]    40 |     [01;31m[Ktransform_broadcaster_[m[K = std::make_unique<tf2_ros::TransformBroadcaster>(*this);
+[6.942s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.953s] [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:40:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2_ros[m[K’ was not declared in this scope; did you mean ‘[01m[Ktf2Cos[m[K’?
+[6.953s]    40 |     transform_broadcaster_ = std::make_unique<[01;31m[Ktf2_ros[m[K::TransformBroadcaster>(*this);
+[6.953s]       |                                               [01;31m[K^~~~~~~[m[K
+[6.954s]       |                                               [32m[Ktf2Cos[m[K
+[6.954s] [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:40:35:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[6.954s]    40 |     transform_broadcaster_ = std::[01;31m[Kmake_unique<tf2_ros::TransformBroadcaster>[m[K(*this);
+[6.954s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.954s] [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:40:77:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_unique<<expression error> >(SimpleController&)[m[K’
+[6.955s]    40 |     transform_broadcaster_ = [01;31m[Kstd::make_unique<tf2_ros::TransformBroadcaster>(*this)[m[K;
+[6.955s]       |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[6.955s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[6.955s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[6.955s]                  from [01m[K/home/bojithakash68/sid_ws/src/walle_controller/include/walle_controller/simple_controller.hpp:4[m[K,
+[6.955s]                  from [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:1[m[K:
+[6.955s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:961:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...)[m[K’
+[6.956s]   961 |     [01;36m[Kmake_unique[m[K(_Args&&... __args)
+[6.956s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[6.956s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:961:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.956s] [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:40:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.956s]    40 |     transform_broadcaster_ = [01;31m[Kstd::make_unique<tf2_ros::TransformBroadcaster>(*this)[m[K;
+[6.956s]       |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[6.956s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[6.956s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[6.956s]                  from [01m[K/home/bojithakash68/sid_ws/src/walle_controller/include/walle_controller/simple_controller.hpp:4[m[K,
+[6.957s]                  from [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:1[m[K:
+[6.957s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:967:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> typename std::_MakeUniq<_Tp>::__array std::make_unique(std::size_t)[m[K’
+[6.957s]   967 |     [01;36m[Kmake_unique[m[K(size_t __num)
+[6.957s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[6.957s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:967:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.957s] [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:40:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.957s]    40 |     transform_broadcaster_ = [01;31m[Kstd::make_unique<tf2_ros::TransformBroadcaster>(*this)[m[K;
+[6.957s]       |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[6.957s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[6.957s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[6.958s]                  from [01m[K/home/bojithakash68/sid_ws/src/walle_controller/include/walle_controller/simple_controller.hpp:4[m[K,
+[6.958s]                  from [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:1[m[K:
+[6.958s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:973:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__invalid_type std::make_unique(_Args&& ...)[m[K’ (deleted)
+[6.958s]   973 |     [01;36m[Kmake_unique[m[K(_Args&&...) = delete;
+[6.958s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[6.958s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:973:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.958s] [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:40:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.958s]    40 |     transform_broadcaster_ = [01;31m[Kstd::make_unique<tf2_ros::TransformBroadcaster>(*this)[m[K;
+[6.958s]       |                              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[6.974s] [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform_stamped_[m[K’ was not declared in this scope
+[6.974s]    41 |     [01;31m[Ktransform_stamped_[m[K.header.frame_id = "odom";
+[6.974s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[7.037s] [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleController::jointCallback(const JointState&)[m[K’:
+[7.037s] [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:85:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_msg_[m[K’ was not declared in this scope
+[7.037s]    85 |     [01;31m[Kodom_msg_[m[K.header.stamp = get_clock()->now();
+[7.038s]       |     [01;31m[K^~~~~~~~~[m[K
+[7.050s] [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:94:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_pub_[m[K’ was not declared in this scope
+[7.050s]    94 |     [01;31m[Kodom_pub_[m[K->publish(odom_msg_);
+[7.050s]       |     [01;31m[K^~~~~~~~~[m[K
+[7.067s] [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:96:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform_stamped_[m[K’ was not declared in this scope
+[7.067s]    96 |     [01;31m[Ktransform_stamped_[m[K.transform.translation.x = x_;
+[7.067s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[7.086s] [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:103:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform_broadcaster_[m[K’ was not declared in this scope
+[7.086s]   103 |     [01;31m[Ktransform_broadcaster_[m[K->sendTransform(transform_stamped_);
+[7.086s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.423s] gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+[10.423s] gmake[1]: *** [CMakeFiles/Makefile2:200: CMakeFiles/simple_controller.dir/all] Error 2
+[10.423s] gmake[1]: *** Waiting for unfinished jobs....
+[12.052s] [ 90%] [32m[1mLinking CXX executable noisy_controller[0m
+[12.445s] [ 90%] Built target noisy_controller
+[12.447s] gmake: *** [Makefile:146: all] Error 2
+[12.450s] Invoked command in '/home/bojithakash68/sid_ws/build/walle_controller' returned '2': AMENT_PREFIX_PATH=/home/bojithakash68/sid_ws/install/walle_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bojithakash68/sid_ws/install/walle_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/bojithakash68/sid_ws/install/walle_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bojithakash68/sid_ws/build/walle_controller -- -j16 -l16

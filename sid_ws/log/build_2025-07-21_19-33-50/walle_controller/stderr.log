@@ -1,0 +1,11 @@
+In file included from [01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:1[m[K:
+[01m[K/home/bojithakash68/sid_ws/src/walle_controller/include/walle_controller/simple_controller.hpp:[m[K In constructor ‘[01m[KSimpleController::SimpleController(const string&)[m[K’:
+[01m[K/home/bojithakash68/sid_ws/src/walle_controller/include/walle_controller/simple_controller.hpp:33:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KSimpleController::left_wheel_prev_pos_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   33 |     double [01;35m[Kleft_wheel_prev_pos_[m[K;
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bojithakash68/sid_ws/src/walle_controller/include/walle_controller/simple_controller.hpp:32:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble SimpleController::right_wheel_prev_pos_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   32 |     double [01;35m[Kright_wheel_prev_pos_[m[K;
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:9:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    9 | [01;35m[KSimpleController[m[K::SimpleController(const std::string& name)
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K

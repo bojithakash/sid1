@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/bojithakash68/sid_ws/install/walle_controller/local/lib/python3.10/dist-packages",
+        "/home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/bojithakash68/sid_ws/install/walle_controller/local/lib/python3.10/dist-packages",
+        "/home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

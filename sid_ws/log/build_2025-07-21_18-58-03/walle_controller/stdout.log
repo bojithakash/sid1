@@ -1,0 +1,12 @@
+[ 75%] Built target simple_client_server
+[ 75%] Built target simple_service_server
+[ 75%] Built target simple_tf_kinematics
+[ 87%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[ 87%] Built target ament_cmake_python_copy_walle_controller
+running egg_info
+writing walle_controller.egg-info/PKG-INFO
+writing dependency_links to walle_controller.egg-info/dependency_links.txt
+writing top-level names to walle_controller.egg-info/top_level.txt
+reading manifest file 'walle_controller.egg-info/SOURCES.txt'
+writing manifest file 'walle_controller.egg-info/SOURCES.txt'
+[ 87%] Built target ament_cmake_python_build_walle_controller_egg

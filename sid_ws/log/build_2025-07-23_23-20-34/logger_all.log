@@ -1,0 +1,266 @@
+[0.250s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.251s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x70b38e32b070>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70b38e46c700>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70b38e46c700>>, mixin_verb=('build',))
+[0.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.715s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bojithakash68/sid_ws'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_controller) by extension 'ignore'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_controller) by extension 'ignore_ament_install'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_controller) by extensions ['colcon_pkg']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_controller) by extension 'colcon_pkg'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_controller) by extensions ['colcon_meta']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_controller) by extension 'colcon_meta'
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_controller) by extensions ['ros']
+[0.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_controller) by extension 'ros'
+[0.776s] DEBUG:colcon.colcon_core.package_identification:Package 'src/walle_controller' with type 'ros.ament_cmake' and name 'walle_controller'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_description) by extensions ['ignore', 'ignore_ament_install']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_description) by extension 'ignore'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_description) by extension 'ignore_ament_install'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_description) by extensions ['colcon_pkg']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_description) by extension 'colcon_pkg'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_description) by extensions ['colcon_meta']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_description) by extension 'colcon_meta'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_description) by extensions ['ros']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_description) by extension 'ros'
+[0.780s] DEBUG:colcon.colcon_core.package_identification:Package 'src/walle_description' with type 'ros.ament_python' and name 'walle_description'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_msg) by extension 'ignore'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_msg) by extension 'ignore_ament_install'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_msg) by extensions ['colcon_pkg']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_msg) by extension 'colcon_pkg'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_msg) by extensions ['colcon_meta']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_msg) by extension 'colcon_meta'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_msg) by extensions ['ros']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(src/walle_msg) by extension 'ros'
+[0.782s] DEBUG:colcon.colcon_core.package_identification:Package 'src/walle_msg' with type 'ros.ament_cmake' and name 'walle_msg'
+[0.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.783s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.783s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.783s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.783s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.826s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.826s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.834s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 392 installed packages in /opt/ros/humble
+[0.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.963s] Level 5:colcon.colcon_core.verb:set package 'walle_description' build argument 'cmake_args' from command line to 'None'
+[0.963s] Level 5:colcon.colcon_core.verb:set package 'walle_description' build argument 'cmake_target' from command line to 'None'
+[0.963s] Level 5:colcon.colcon_core.verb:set package 'walle_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.963s] Level 5:colcon.colcon_core.verb:set package 'walle_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'walle_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'walle_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'walle_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'walle_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'walle_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.964s] DEBUG:colcon.colcon_core.verb:Building package 'walle_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bojithakash68/sid_ws/build/walle_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bojithakash68/sid_ws/install/walle_description', 'merge_install': False, 'path': '/home/bojithakash68/sid_ws/src/walle_description', 'symlink_install': False, 'test_result_base': None}
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'walle_msg' build argument 'cmake_args' from command line to 'None'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'walle_msg' build argument 'cmake_target' from command line to 'None'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'walle_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'walle_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'walle_msg' build argument 'cmake_clean_first' from command line to 'False'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'walle_msg' build argument 'cmake_force_configure' from command line to 'False'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'walle_msg' build argument 'ament_cmake_args' from command line to 'None'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'walle_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.965s] Level 5:colcon.colcon_core.verb:set package 'walle_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.966s] DEBUG:colcon.colcon_core.verb:Building package 'walle_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bojithakash68/sid_ws/build/walle_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bojithakash68/sid_ws/install/walle_msg', 'merge_install': False, 'path': '/home/bojithakash68/sid_ws/src/walle_msg', 'symlink_install': False, 'test_result_base': None}
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'walle_controller' build argument 'cmake_args' from command line to 'None'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'walle_controller' build argument 'cmake_target' from command line to 'None'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'walle_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'walle_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'walle_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'walle_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'walle_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'walle_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'walle_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.967s] DEBUG:colcon.colcon_core.verb:Building package 'walle_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bojithakash68/sid_ws/build/walle_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bojithakash68/sid_ws/install/walle_controller', 'merge_install': False, 'path': '/home/bojithakash68/sid_ws/src/walle_controller', 'symlink_install': False, 'test_result_base': None}
+[0.967s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.970s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.971s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bojithakash68/sid_ws/src/walle_msg' with build type 'ament_cmake'
+[0.972s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bojithakash68/sid_ws/src/walle_msg'
+[0.976s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.976s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.977s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.986s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bojithakash68/sid_ws/src/walle_description' with build type 'ament_python'
+[0.986s] Level 1:colcon.colcon_core.shell:create_environment_hook('walle_description', 'ament_prefix_path')
+[0.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bojithakash68/sid_ws/install/walle_description/share/walle_description/hook/ament_prefix_path.ps1'
+[0.989s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bojithakash68/sid_ws/install/walle_description/share/walle_description/hook/ament_prefix_path.dsv'
+[0.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bojithakash68/sid_ws/install/walle_description/share/walle_description/hook/ament_prefix_path.sh'
+[0.991s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.992s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bojithakash68/sid_ws/build/walle_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bojithakash68/sid_ws/build/walle_msg -- -j16 -l16
+[1.731s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bojithakash68/sid_ws/src/walle_description'
+[1.732s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.732s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bojithakash68/sid_ws/build/walle_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bojithakash68/sid_ws/build/walle_msg -- -j16 -l16
+[2.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bojithakash68/sid_ws/build/walle_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bojithakash68/sid_ws/build/walle_msg
+[2.229s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(walle_msg)
+[2.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bojithakash68/sid_ws/build/walle_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bojithakash68/sid_ws/build/walle_msg
+[2.235s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_msg' for CMake module files
+[2.236s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_msg' for CMake config files
+[2.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('walle_msg', 'cmake_prefix_path')
+[2.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/hook/cmake_prefix_path.ps1'
+[2.239s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/hook/cmake_prefix_path.dsv'
+[2.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/hook/cmake_prefix_path.sh'
+[2.241s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_msg/lib'
+[2.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('walle_msg', 'ld_library_path_lib')
+[2.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/hook/ld_library_path_lib.ps1'
+[2.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/hook/ld_library_path_lib.dsv'
+[2.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/hook/ld_library_path_lib.sh'
+[2.245s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_msg/bin'
+[2.245s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_msg/lib/pkgconfig/walle_msg.pc'
+[2.246s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_msg/lib/python3.10/site-packages'
+[2.246s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_msg/bin'
+[2.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/package.ps1'
+[2.249s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/package.dsv'
+[2.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/package.sh'
+[2.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/package.bash'
+[2.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/package.zsh'
+[2.255s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bojithakash68/sid_ws/install/walle_msg/share/colcon-core/packages/walle_msg)
+[2.257s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(walle_msg)
+[2.258s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_msg' for CMake module files
+[2.259s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_msg' for CMake config files
+[2.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('walle_msg', 'cmake_prefix_path')
+[2.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/hook/cmake_prefix_path.ps1'
+[2.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/hook/cmake_prefix_path.dsv'
+[2.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/hook/cmake_prefix_path.sh'
+[2.263s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_msg/lib'
+[2.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('walle_msg', 'ld_library_path_lib')
+[2.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/hook/ld_library_path_lib.ps1'
+[2.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/hook/ld_library_path_lib.dsv'
+[2.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/hook/ld_library_path_lib.sh'
+[2.266s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_msg/bin'
+[2.266s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_msg/lib/pkgconfig/walle_msg.pc'
+[2.267s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_msg/lib/python3.10/site-packages'
+[2.267s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_msg/bin'
+[2.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/package.ps1'
+[2.269s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/package.dsv'
+[2.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/package.sh'
+[2.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/package.bash'
+[2.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/package.zsh'
+[2.274s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bojithakash68/sid_ws/install/walle_msg/share/colcon-core/packages/walle_msg)
+[2.275s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bojithakash68/sid_ws/src/walle_controller' with build type 'ament_cmake'
+[2.276s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bojithakash68/sid_ws/src/walle_controller'
+[2.277s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.277s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bojithakash68/sid_ws/build/walle_controller': AMENT_PREFIX_PATH=/home/bojithakash68/sid_ws/install/walle_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bojithakash68/sid_ws/install/walle_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/bojithakash68/sid_ws/install/walle_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bojithakash68/sid_ws/build/walle_controller -- -j16 -l16
+[2.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bojithakash68/sid_ws/src/walle_description': PYTHONPATH=/home/bojithakash68/sid_ws/build/walle_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bojithakash68/sid_ws/install/walle_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/walle_description build --build-base /home/bojithakash68/sid_ws/build/walle_description/build install --record /home/bojithakash68/sid_ws/build/walle_description/install.log --single-version-externally-managed install_data
+[3.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bojithakash68/sid_ws/build/walle_controller' returned '0': AMENT_PREFIX_PATH=/home/bojithakash68/sid_ws/install/walle_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bojithakash68/sid_ws/install/walle_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/bojithakash68/sid_ws/install/walle_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bojithakash68/sid_ws/build/walle_controller -- -j16 -l16
+[3.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bojithakash68/sid_ws/build/walle_controller': AMENT_PREFIX_PATH=/home/bojithakash68/sid_ws/install/walle_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bojithakash68/sid_ws/install/walle_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/bojithakash68/sid_ws/install/walle_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bojithakash68/sid_ws/build/walle_controller
+[3.422s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(walle_controller)
+[3.423s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_controller' for CMake module files
+[3.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bojithakash68/sid_ws/build/walle_controller' returned '0': AMENT_PREFIX_PATH=/home/bojithakash68/sid_ws/install/walle_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bojithakash68/sid_ws/install/walle_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/bojithakash68/sid_ws/install/walle_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bojithakash68/sid_ws/build/walle_controller
+[3.426s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_controller' for CMake config files
+[3.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('walle_controller', 'cmake_prefix_path')
+[3.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/hook/cmake_prefix_path.ps1'
+[3.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/hook/cmake_prefix_path.dsv'
+[3.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/hook/cmake_prefix_path.sh'
+[3.430s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_controller/lib'
+[3.430s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_controller/bin'
+[3.430s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_controller/lib/pkgconfig/walle_controller.pc'
+[3.431s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_controller/lib/python3.10/site-packages'
+[3.431s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_controller/bin'
+[3.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/package.ps1'
+[3.433s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/package.dsv'
+[3.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/package.sh'
+[3.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/package.bash'
+[3.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/package.zsh'
+[3.437s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bojithakash68/sid_ws/install/walle_controller/share/colcon-core/packages/walle_controller)
+[3.438s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(walle_controller)
+[3.438s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_controller' for CMake module files
+[3.439s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_controller' for CMake config files
+[3.440s] Level 1:colcon.colcon_core.shell:create_environment_hook('walle_controller', 'cmake_prefix_path')
+[3.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/hook/cmake_prefix_path.ps1'
+[3.442s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/hook/cmake_prefix_path.dsv'
+[3.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/hook/cmake_prefix_path.sh'
+[3.444s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_controller/lib'
+[3.444s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_controller/bin'
+[3.444s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_controller/lib/pkgconfig/walle_controller.pc'
+[3.445s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_controller/lib/python3.10/site-packages'
+[3.445s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_controller/bin'
+[3.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/package.ps1'
+[3.448s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/package.dsv'
+[3.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/package.sh'
+[3.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/package.bash'
+[3.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/package.zsh'
+[3.453s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bojithakash68/sid_ws/install/walle_controller/share/colcon-core/packages/walle_controller)
+[3.561s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_description' for CMake module files
+[3.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bojithakash68/sid_ws/src/walle_description' returned '0': PYTHONPATH=/home/bojithakash68/sid_ws/build/walle_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bojithakash68/sid_ws/install/walle_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/walle_description build --build-base /home/bojithakash68/sid_ws/build/walle_description/build install --record /home/bojithakash68/sid_ws/build/walle_description/install.log --single-version-externally-managed install_data
+[3.564s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_description' for CMake config files
+[3.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('walle_description', 'cmake_prefix_path')
+[3.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bojithakash68/sid_ws/install/walle_description/share/walle_description/hook/cmake_prefix_path.ps1'
+[3.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bojithakash68/sid_ws/install/walle_description/share/walle_description/hook/cmake_prefix_path.dsv'
+[3.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bojithakash68/sid_ws/install/walle_description/share/walle_description/hook/cmake_prefix_path.sh'
+[3.569s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_description/lib'
+[3.569s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_description/bin'
+[3.569s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_description/lib/pkgconfig/walle_description.pc'
+[3.570s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_description/lib/python3.10/site-packages'
+[3.570s] Level 1:colcon.colcon_core.shell:create_environment_hook('walle_description', 'pythonpath')
+[3.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bojithakash68/sid_ws/install/walle_description/share/walle_description/hook/pythonpath.ps1'
+[3.571s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bojithakash68/sid_ws/install/walle_description/share/walle_description/hook/pythonpath.dsv'
+[3.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bojithakash68/sid_ws/install/walle_description/share/walle_description/hook/pythonpath.sh'
+[3.573s] Level 1:colcon.colcon_core.environment:checking '/home/bojithakash68/sid_ws/install/walle_description/bin'
+[3.574s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(walle_description)
+[3.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/bojithakash68/sid_ws/install/walle_description/share/walle_description/package.ps1'
+[3.576s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bojithakash68/sid_ws/install/walle_description/share/walle_description/package.dsv'
+[3.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/bojithakash68/sid_ws/install/walle_description/share/walle_description/package.sh'
+[3.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/bojithakash68/sid_ws/install/walle_description/share/walle_description/package.bash'
+[3.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/bojithakash68/sid_ws/install/walle_description/share/walle_description/package.zsh'
+[3.580s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bojithakash68/sid_ws/install/walle_description/share/colcon-core/packages/walle_description)
+[3.581s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.582s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.582s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.582s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.594s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.594s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.595s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.620s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.621s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bojithakash68/sid_ws/install/local_setup.ps1'
+[3.623s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bojithakash68/sid_ws/install/_local_setup_util_ps1.py'
+[3.626s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bojithakash68/sid_ws/install/setup.ps1'
+[3.628s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bojithakash68/sid_ws/install/local_setup.sh'
+[3.629s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bojithakash68/sid_ws/install/_local_setup_util_sh.py'
+[3.630s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bojithakash68/sid_ws/install/setup.sh'
+[3.633s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bojithakash68/sid_ws/install/local_setup.bash'
+[3.634s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bojithakash68/sid_ws/install/setup.bash'
+[3.636s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bojithakash68/sid_ws/install/local_setup.zsh'
+[3.637s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bojithakash68/sid_ws/install/setup.zsh'

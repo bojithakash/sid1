@@ -1,0 +1,59 @@
+[0.035s] Invoking command in '/home/bojithakash68/sid_ws/build/walle_controller': AMENT_PREFIX_PATH=/home/bojithakash68/sid_ws/install/walle_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bojithakash68/sid_ws/install/walle_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/bojithakash68/sid_ws/install/walle_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bojithakash68/sid_ws/build/walle_controller -- -j16 -l16
+[0.220s] [100%] Built target simple_tf_kinematics
+[0.220s] [100%] Built target simple_service_server
+[0.220s] [100%] Built target simple_controller
+[0.220s] [100%] Built target simple_client_server
+[0.233s] [100%] Built target ament_cmake_python_copy_walle_controller
+[0.887s] running egg_info
+[0.888s] writing walle_controller.egg-info/PKG-INFO
+[0.889s] writing dependency_links to walle_controller.egg-info/dependency_links.txt
+[0.889s] writing top-level names to walle_controller.egg-info/top_level.txt
+[0.894s] reading manifest file 'walle_controller.egg-info/SOURCES.txt'
+[0.895s] writing manifest file 'walle_controller.egg-info/SOURCES.txt'
+[0.958s] [100%] Built target ament_cmake_python_build_walle_controller_egg
+[0.991s] Invoked command in '/home/bojithakash68/sid_ws/build/walle_controller' returned '0': AMENT_PREFIX_PATH=/home/bojithakash68/sid_ws/install/walle_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bojithakash68/sid_ws/install/walle_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/bojithakash68/sid_ws/install/walle_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bojithakash68/sid_ws/build/walle_controller -- -j16 -l16
+[0.994s] Invoking command in '/home/bojithakash68/sid_ws/build/walle_controller': AMENT_PREFIX_PATH=/home/bojithakash68/sid_ws/install/walle_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bojithakash68/sid_ws/install/walle_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/bojithakash68/sid_ws/install/walle_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bojithakash68/sid_ws/build/walle_controller
+[1.015s] -- Install configuration: ""
+[1.016s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/environment/pythonpath.sh
+[1.016s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/environment/pythonpath.dsv
+[1.016s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/local/lib/python3.10/dist-packages/walle_controller-0.0.0-py3.10.egg-info
+[1.016s] -- Installing: /home/bojithakash68/sid_ws/install/walle_controller/local/lib/python3.10/dist-packages/walle_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[1.017s] -- Installing: /home/bojithakash68/sid_ws/install/walle_controller/local/lib/python3.10/dist-packages/walle_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.017s] -- Installing: /home/bojithakash68/sid_ws/install/walle_controller/local/lib/python3.10/dist-packages/walle_controller-0.0.0-py3.10.egg-info/top_level.txt
+[1.017s] -- Installing: /home/bojithakash68/sid_ws/install/walle_controller/local/lib/python3.10/dist-packages/walle_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.018s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/local/lib/python3.10/dist-packages/walle_controller
+[1.018s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/local/lib/python3.10/dist-packages/walle_controller/__init__.py
+[1.092s] Listing '/home/bojithakash68/sid_ws/install/walle_controller/local/lib/python3.10/dist-packages/walle_controller'...
+[1.101s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/include/include
+[1.102s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/include/include/walle_controller
+[1.102s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/include/include/walle_controller/simple_tf_kinematics.hpp
+[1.102s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/include/include/walle_controller/simple_controller.hpp
+[1.102s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/include/include/walle_controller/noisy_controller.hpp
+[1.103s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/lib/walle_controller/simple_controller
+[1.103s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/lib/walle_controller/simple_tf_kinematics
+[1.104s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/lib/walle_controller/simple_service_server
+[1.105s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/lib/walle_controller/simple_client_server
+[1.105s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/config
+[1.106s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/config/joy_config.yaml
+[1.106s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/config/walle_controllers.yaml
+[1.106s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/config/joy_teleop.yaml
+[1.106s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/launch
+[1.106s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/launch/controller.launch.py
+[1.106s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/launch/keyboard.launch.py
+[1.107s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/launch/joy_teleop.launch.py
+[1.107s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/ament_index/resource_index/package_run_dependencies/walle_controller
+[1.107s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/ament_index/resource_index/parent_prefix_path/walle_controller
+[1.107s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/environment/ament_prefix_path.sh
+[1.107s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/environment/ament_prefix_path.dsv
+[1.107s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/environment/path.sh
+[1.108s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/environment/path.dsv
+[1.108s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/local_setup.bash
+[1.108s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/local_setup.sh
+[1.108s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/local_setup.zsh
+[1.108s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/local_setup.dsv
+[1.108s] -- Installing: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/package.dsv
+[1.108s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/ament_index/resource_index/packages/walle_controller
+[1.109s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/cmake/walle_controllerConfig.cmake
+[1.109s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/cmake/walle_controllerConfig-version.cmake
+[1.109s] -- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/package.xml
+[1.114s] Invoked command in '/home/bojithakash68/sid_ws/build/walle_controller' returned '0': AMENT_PREFIX_PATH=/home/bojithakash68/sid_ws/install/walle_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bojithakash68/sid_ws/install/walle_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/bojithakash68/sid_ws/install/walle_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bojithakash68/sid_ws/build/walle_controller

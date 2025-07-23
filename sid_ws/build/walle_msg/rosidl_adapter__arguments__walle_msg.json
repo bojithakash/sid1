@@ -1,0 +1,7 @@
+{
+  "package_name": "walle_msg",
+  "non_idl_tuples": [
+    "/home/bojithakash68/sid_ws/src/walle_msg:srv/AddTwoInts.srv",
+    "/home/bojithakash68/sid_ws/src/walle_msg:srv/GetTransform.srv"
+  ]
+}
