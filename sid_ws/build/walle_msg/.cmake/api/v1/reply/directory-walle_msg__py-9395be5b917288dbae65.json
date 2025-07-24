@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "walle_msg__py",
+		"source" : "/home/bojithakash68/sid_ws/build/walle_msg/walle_msg__py"
+	}
+}

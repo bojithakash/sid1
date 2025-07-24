@@ -1,0 +1,57 @@
+[ 60%] Built target simple_service_server
+[ 60%] Built target simple_client_server
+[ 60%] Built target simple_tf_kinematics
+[100%] Built target noisy_controller
+[100%] Built target simple_controller
+[100%] Built target ament_cmake_python_copy_walle_controller
+running egg_info
+writing walle_controller.egg-info/PKG-INFO
+writing dependency_links to walle_controller.egg-info/dependency_links.txt
+writing top-level names to walle_controller.egg-info/top_level.txt
+reading manifest file 'walle_controller.egg-info/SOURCES.txt'
+writing manifest file 'walle_controller.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_walle_controller_egg
+-- Install configuration: ""
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/environment/pythonpath.sh
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/environment/pythonpath.dsv
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/local/lib/python3.10/dist-packages/walle_controller-0.0.0-py3.10.egg-info
+-- Installing: /home/bojithakash68/sid_ws/install/walle_controller/local/lib/python3.10/dist-packages/walle_controller-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/bojithakash68/sid_ws/install/walle_controller/local/lib/python3.10/dist-packages/walle_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/bojithakash68/sid_ws/install/walle_controller/local/lib/python3.10/dist-packages/walle_controller-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/bojithakash68/sid_ws/install/walle_controller/local/lib/python3.10/dist-packages/walle_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/local/lib/python3.10/dist-packages/walle_controller
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/local/lib/python3.10/dist-packages/walle_controller/__init__.py
+Listing '/home/bojithakash68/sid_ws/install/walle_controller/local/lib/python3.10/dist-packages/walle_controller'...
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/include/include
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/include/include/walle_controller
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/include/include/walle_controller/simple_tf_kinematics.hpp
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/include/include/walle_controller/simple_controller.hpp
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/include/include/walle_controller/noisy_controller.hpp
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/lib/walle_controller/simple_controller
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/lib/walle_controller/simple_tf_kinematics
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/lib/walle_controller/simple_service_server
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/lib/walle_controller/simple_client_server
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/lib/walle_controller/noisy_controller
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/config
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/config/joy_config.yaml
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/config/walle_controllers.yaml
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/config/joy_teleop.yaml
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/launch
+-- Installing: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/launch/controller.launch.py
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/launch/keyboard.launch.py
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/launch/joy_teleop.launch.py
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/ament_index/resource_index/package_run_dependencies/walle_controller
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/ament_index/resource_index/parent_prefix_path/walle_controller
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/environment/path.sh
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/environment/path.dsv
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/local_setup.bash
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/local_setup.sh
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/local_setup.zsh
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/local_setup.dsv
+-- Installing: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/package.dsv
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/ament_index/resource_index/packages/walle_controller
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/cmake/walle_controllerConfig.cmake
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/cmake/walle_controllerConfig-version.cmake
+-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_controller/share/walle_controller/package.xml

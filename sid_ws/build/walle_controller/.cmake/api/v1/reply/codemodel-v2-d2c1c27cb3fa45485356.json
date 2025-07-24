@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-de81968096fe0158cc02.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "walle_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_walle_controller_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_walle_controller_egg-72800faa61e68463a416.json",
+					"name" : "ament_cmake_python_build_walle_controller_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_walle_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_walle_controller-1119d0a75e4df372af86.json",
+					"name" : "ament_cmake_python_copy_walle_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "noisy_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-noisy_controller-6d1781c08f2aa1895ffd.json",
+					"name" : "noisy_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_client_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_client_server-d7c24250e978a430cdeb.json",
+					"name" : "simple_client_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_controller-fa513d2b895c369890da.json",
+					"name" : "simple_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_service_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_service_server-9028dbbb1c5b356bf0da.json",
+					"name" : "simple_service_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_tf_kinematics::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_tf_kinematics-f216fa53bd77c0b232c0.json",
+					"name" : "simple_tf_kinematics",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-686a45ac2a5cc7fa6925.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "walle_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-walle_controller_uninstall-33db8eac2b5d5d2428dd.json",
+					"name" : "walle_controller_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bojithakash68/sid_ws/build/walle_controller",
+		"source" : "/home/bojithakash68/sid_ws/src/walle_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

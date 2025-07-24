@@ -1,0 +1,472 @@
+[0.000000] (-) TimerEvent: {}
+[0.001269] (walle_description) JobQueued: {'identifier': 'walle_description', 'dependencies': OrderedDict()}
+[0.002374] (walle_msg) JobQueued: {'identifier': 'walle_msg', 'dependencies': OrderedDict()}
+[0.002457] (walle_controller) JobQueued: {'identifier': 'walle_controller', 'dependencies': OrderedDict([('walle_msg', '/home/bojithakash68/sid_ws/install/walle_msg')])}
+[0.002512] (walle_msg) JobStarted: {'identifier': 'walle_msg'}
+[0.016074] (walle_description) JobStarted: {'identifier': 'walle_description'}
+[0.031145] (walle_msg) JobProgress: {'identifier': 'walle_msg', 'progress': 'cmake'}
+[0.032755] (walle_msg) JobProgress: {'identifier': 'walle_msg', 'progress': 'build'}
+[0.034774] (walle_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bojithakash68/sid_ws/build/walle_msg', '--', '-j16', '-l16'], 'cwd': '/home/bojithakash68/sid_ws/build/walle_msg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'bojithakash68'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/bojithakash68/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('HOME', '/home/bojithakash68'), ('OLDPWD', '/home/bojithakash68'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1560'), ('SYSTEMD_EXEC_PID', '1721'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '18900'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bojithakash68'), ('JOURNAL_STREAM', '8:15058'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bojithakash68'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bojithakash68/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/bojithakash68/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/boshit:@/tmp/.ICE-unix/1693,unix/boshit:/tmp/.ICE-unix/1693'), ('INVOCATION_ID', '86ad848e25e7483799ef7e3732a77294'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VUDY92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1383570a-5db5-416d-9622-c20b03054598'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bojithakash68/sid_ws/build/walle_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099264] (-) TimerEvent: {}
+[0.199842] (-) TimerEvent: {}
+[0.218464] (walle_msg) StdoutLine: {'line': b'[  7%] Built target walle_msg__cpp\n'}
+[0.218949] (walle_msg) StdoutLine: {'line': b'[ 12%] Built target walle_msg__rosidl_generator_c\n'}
+[0.251162] (walle_msg) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_walle_msg\n'}
+[0.300043] (-) TimerEvent: {}
+[0.308071] (walle_msg) StdoutLine: {'line': b'[ 33%] Built target walle_msg__rosidl_typesupport_cpp\n'}
+[0.308622] (walle_msg) StdoutLine: {'line': b'[ 33%] Built target walle_msg__rosidl_typesupport_introspection_c\n'}
+[0.309230] (walle_msg) StdoutLine: {'line': b'[ 43%] Built target walle_msg__rosidl_typesupport_fastrtps_c\n'}
+[0.309579] (walle_msg) StdoutLine: {'line': b'[ 53%] Built target walle_msg__rosidl_typesupport_c\n'}
+[0.310680] (walle_msg) StdoutLine: {'line': b'[ 64%] Built target walle_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[0.316883] (walle_msg) StdoutLine: {'line': b'[ 74%] Built target walle_msg__rosidl_typesupport_introspection_cpp\n'}
+[0.396679] (walle_msg) StdoutLine: {'line': b'[ 74%] Built target walle_msg\n'}
+[0.400137] (-) TimerEvent: {}
+[0.484547] (walle_msg) StdoutLine: {'line': b'[ 76%] Built target walle_msg__py\n'}
+[0.500335] (-) TimerEvent: {}
+[0.573510] (walle_msg) StdoutLine: {'line': b'[ 84%] Built target walle_msg__rosidl_generator_py\n'}
+[0.600527] (-) TimerEvent: {}
+[0.661071] (walle_msg) StdoutLine: {'line': b'[ 97%] Built target walle_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[0.661656] (walle_msg) StdoutLine: {'line': b'[ 97%] Built target walle_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.661926] (walle_msg) StdoutLine: {'line': b'[100%] Built target walle_msg__rosidl_typesupport_c__pyext\n'}
+[0.700684] (-) TimerEvent: {}
+[0.802337] (-) TimerEvent: {}
+[0.902914] (-) TimerEvent: {}
+[0.998794] (walle_msg) StdoutLine: {'line': b'running egg_info\n'}
+[1.000990] (walle_msg) StdoutLine: {'line': b'writing walle_msg.egg-info/PKG-INFO\n'}
+[1.001661] (walle_msg) StdoutLine: {'line': b'writing dependency_links to walle_msg.egg-info/dependency_links.txt\n'}
+[1.002182] (walle_msg) StdoutLine: {'line': b'writing top-level names to walle_msg.egg-info/top_level.txt\n'}
+[1.003020] (-) TimerEvent: {}
+[1.008641] (walle_msg) StdoutLine: {'line': b"reading manifest file 'walle_msg.egg-info/SOURCES.txt'\n"}
+[1.010164] (walle_msg) StdoutLine: {'line': b"writing manifest file 'walle_msg.egg-info/SOURCES.txt'\n"}
+[1.103205] (-) TimerEvent: {}
+[1.122442] (walle_msg) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_walle_msg_egg\n'}
+[1.165352] (walle_msg) CommandEnded: {'returncode': 0}
+[1.167057] (walle_msg) JobProgress: {'identifier': 'walle_msg', 'progress': 'install'}
+[1.201868] (walle_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bojithakash68/sid_ws/build/walle_msg'], 'cwd': '/home/bojithakash68/sid_ws/build/walle_msg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'bojithakash68'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/bojithakash68/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('HOME', '/home/bojithakash68'), ('OLDPWD', '/home/bojithakash68'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1560'), ('SYSTEMD_EXEC_PID', '1721'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '18900'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bojithakash68'), ('JOURNAL_STREAM', '8:15058'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bojithakash68'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bojithakash68/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/bojithakash68/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/boshit:@/tmp/.ICE-unix/1693,unix/boshit:/tmp/.ICE-unix/1693'), ('INVOCATION_ID', '86ad848e25e7483799ef7e3732a77294'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VUDY92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1383570a-5db5-416d-9622-c20b03054598'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bojithakash68/sid_ws/build/walle_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.204235] (-) TimerEvent: {}
+[1.228215] (walle_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.229057] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/ament_index/resource_index/rosidl_interfaces/walle_msg\n'}
+[1.229581] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg\n'}
+[1.230097] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv\n'}
+[1.230463] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/add_two_ints.h\n'}
+[1.230729] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail\n'}
+[1.231037] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/add_two_ints__functions.c\n'}
+[1.231416] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/add_two_ints__struct.h\n'}
+[1.231703] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/get_transform__struct.h\n'}
+[1.232166] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/get_transform__type_support.h\n'}
+[1.232500] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/add_two_ints__type_support.h\n'}
+[1.232777] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/add_two_ints__functions.h\n'}
+[1.233229] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/get_transform__functions.c\n'}
+[1.233504] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/get_transform__functions.h\n'}
+[1.233715] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/get_transform.h\n'}
+[1.234194] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/msg\n'}
+[1.234527] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.234779] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/environment/library_path.sh\n'}
+[1.235315] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/environment/library_path.dsv\n'}
+[1.235768] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/lib/libwalle_msg__rosidl_generator_c.so\n'}
+[1.236143] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg\n'}
+[1.236364] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv\n'}
+[1.236687] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail\n'}
+[1.237123] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/get_transform__rosidl_typesupport_fastrtps_c.h\n'}
+[1.237568] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[1.237825] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/msg\n'}
+[1.238281] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.238613] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/lib/libwalle_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[1.238893] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg\n'}
+[1.239402] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv\n'}
+[1.239779] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/add_two_ints.hpp\n'}
+[1.240177] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/get_transform.hpp\n'}
+[1.240451] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail\n'}
+[1.240707] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/add_two_ints__type_support.hpp\n'}
+[1.241132] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/add_two_ints__traits.hpp\n'}
+[1.241439] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/get_transform__traits.hpp\n'}
+[1.241892] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/add_two_ints__struct.hpp\n'}
+[1.242235] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/get_transform__type_support.hpp\n'}
+[1.242515] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/add_two_ints__builder.hpp\n'}
+[1.242793] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/get_transform__builder.hpp\n'}
+[1.243175] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/get_transform__struct.hpp\n'}
+[1.243557] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/msg\n'}
+[1.243827] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.244486] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg\n'}
+[1.244913] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv\n'}
+[1.245423] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail\n'}
+[1.245768] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/dds_fastrtps\n'}
+[1.246096] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/get_transform__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.246403] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.246639] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/msg\n'}
+[1.246902] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.247223] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/lib/libwalle_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.247491] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg\n'}
+[1.247739] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv\n'}
+[1.248032] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail\n'}
+[1.248290] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/add_two_ints__type_support.c\n'}
+[1.248570] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/get_transform__type_support.c\n'}
+[1.248808] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/get_transform__rosidl_typesupport_introspection_c.h\n'}
+[1.249127] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h\n'}
+[1.249395] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/msg\n'}
+[1.249639] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.249897] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/lib/libwalle_msg__rosidl_typesupport_introspection_c.so\n'}
+[1.250158] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/lib/libwalle_msg__rosidl_typesupport_c.so\n'}
+[1.250292] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg\n'}
+[1.250417] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv\n'}
+[1.250543] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail\n'}
+[1.250669] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/get_transform__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.250791] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/add_two_ints__type_support.cpp\n'}
+[1.250951] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/get_transform__type_support.cpp\n'}
+[1.251084] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/include/walle_msg/walle_msg/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.251206] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/lib/libwalle_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[1.251328] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/lib/libwalle_msg__rosidl_typesupport_cpp.so\n'}
+[1.251471] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/environment/pythonpath.sh\n'}
+[1.251599] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/environment/pythonpath.dsv\n'}
+[1.251719] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg-0.0.0-py3.10.egg-info\n'}
+[1.251838] (walle_msg) StdoutLine: {'line': b'-- Installing: /home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.252021] (walle_msg) StdoutLine: {'line': b'-- Installing: /home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.252150] (walle_msg) StdoutLine: {'line': b'-- Installing: /home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.252270] (walle_msg) StdoutLine: {'line': b'-- Installing: /home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.252388] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg\n'}
+[1.252504] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg/srv\n'}
+[1.252622] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg/srv/_add_two_ints.py\n'}
+[1.252741] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg/srv/_get_transform.py\n'}
+[1.252871] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg/srv/__init__.py\n'}
+[1.253038] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg/srv/_get_transform_s.c\n'}
+[1.253165] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg/srv/_add_two_ints_s.c\n'}
+[1.253283] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg/_walle_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.253402] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg/walle_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.253521] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg/walle_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.253643] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg/_walle_msg_s.ep.rosidl_typesupport_c.c\n'}
+[1.253764] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg/_walle_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.253907] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg/libwalle_msg__rosidl_generator_py.so\n'}
+[1.254079] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg/__init__.py\n'}
+[1.254200] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg/walle_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.304442] (-) TimerEvent: {}
+[1.325669] (walle_msg) StdoutLine: {'line': b"Listing '/home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg'...\n"}
+[1.326285] (walle_msg) StdoutLine: {'line': b"Listing '/home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg/srv'...\n"}
+[1.340538] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg/walle_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.341442] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg/walle_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.342245] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages/walle_msg/walle_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.343036] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/lib/libwalle_msg__rosidl_generator_py.so\n'}
+[1.343621] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/srv/AddTwoInts.idl\n'}
+[1.344148] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/srv/GetTransform.idl\n'}
+[1.344621] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/srv/AddTwoInts.srv\n'}
+[1.345267] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/srv/AddTwoInts_Request.msg\n'}
+[1.345652] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/srv/AddTwoInts_Response.msg\n'}
+[1.346083] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/srv/GetTransform.srv\n'}
+[1.346305] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/srv/GetTransform_Request.msg\n'}
+[1.346446] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/srv/GetTransform_Response.msg\n'}
+[1.346591] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/ament_index/resource_index/package_run_dependencies/walle_msg\n'}
+[1.346731] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/ament_index/resource_index/parent_prefix_path/walle_msg\n'}
+[1.346887] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/environment/ament_prefix_path.sh\n'}
+[1.347812] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/environment/ament_prefix_path.dsv\n'}
+[1.348184] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/environment/path.sh\n'}
+[1.348435] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/environment/path.dsv\n'}
+[1.348666] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/local_setup.bash\n'}
+[1.348829] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/local_setup.sh\n'}
+[1.349081] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/local_setup.zsh\n'}
+[1.349264] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/local_setup.dsv\n'}
+[1.349460] (walle_msg) StdoutLine: {'line': b'-- Installing: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/package.dsv\n'}
+[1.349708] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/ament_index/resource_index/packages/walle_msg\n'}
+[1.349933] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/export_walle_msg__rosidl_generator_cExport.cmake\n'}
+[1.350193] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/export_walle_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.350410] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/export_walle_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.350551] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/export_walle_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.350682] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/export_walle_msg__rosidl_generator_cppExport.cmake\n'}
+[1.350817] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/export_walle_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.351156] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/export_walle_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.351338] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/walle_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.351530] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/walle_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.351679] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/walle_msg__rosidl_typesupport_cExport.cmake\n'}
+[1.351810] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/walle_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.351976] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/walle_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.352106] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/walle_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.352231] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/walle_msg__rosidl_typesupport_cppExport.cmake\n'}
+[1.352354] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/walle_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.352481] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/export_walle_msg__rosidl_generator_pyExport.cmake\n'}
+[1.352603] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/export_walle_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.352723] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[1.352843] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.353036] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.353160] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.353302] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.353424] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.353542] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.353674] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/walle_msgConfig.cmake\n'}
+[1.353797] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/cmake/walle_msgConfig-version.cmake\n'}
+[1.353965] (walle_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bojithakash68/sid_ws/install/walle_msg/share/walle_msg/package.xml\n'}
+[1.356933] (walle_msg) CommandEnded: {'returncode': 0}
+[1.404633] (-) TimerEvent: {}
+[1.406752] (walle_msg) JobEnded: {'identifier': 'walle_msg', 'rc': 0}
+[1.409893] (walle_controller) JobStarted: {'identifier': 'walle_controller'}
+[1.441549] (walle_controller) JobProgress: {'identifier': 'walle_controller', 'progress': 'cmake'}
+[1.443209] (walle_controller) JobProgress: {'identifier': 'walle_controller', 'progress': 'build'}
+[1.445375] (walle_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bojithakash68/sid_ws/build/walle_controller', '--', '-j16', '-l16'], 'cwd': '/home/bojithakash68/sid_ws/build/walle_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'bojithakash68'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bojithakash68/sid_ws/install/walle_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/bojithakash68/.mujoco/mujoco210/bin:/usr/lib/nvidia'), ('HOME', '/home/bojithakash68'), ('OLDPWD', '/home/bojithakash68'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1560'), ('SYSTEMD_EXEC_PID', '1721'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '18900'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bojithakash68'), ('JOURNAL_STREAM', '8:15058'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bojithakash68'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bojithakash68/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/bojithakash68/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/boshit:@/tmp/.ICE-unix/1693,unix/boshit:/tmp/.ICE-unix/1693'), ('INVOCATION_ID', '86ad848e25e7483799ef7e3732a77294'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VUDY92'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bojithakash68/sid_ws/install/walle_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1383570a-5db5-416d-9622-c20b03054598'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bojithakash68/sid_ws/build/walle_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bojithakash68/sid_ws/install/walle_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bojithakash68/sid_ws/install/walle_msg:/opt/ros/humble')]), 'shell': False}
+[1.504771] (-) TimerEvent: {}
+[1.593938] (walle_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target simple_controller\x1b[0m\n'}
+[1.599362] (walle_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target noisy_controller\x1b[0m\n'}
+[1.604919] (-) TimerEvent: {}
+[1.638319] (walle_controller) StdoutLine: {'line': b'[ 20%] Built target simple_service_server\n'}
+[1.639117] (walle_controller) StdoutLine: {'line': b'[ 40%] Built target simple_tf_kinematics\n'}
+[1.642896] (walle_controller) StdoutLine: {'line': b'[ 60%] Built target simple_client_server\n'}
+[1.661099] (walle_controller) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o\x1b[0m\n'}
+[1.661687] (walle_controller) StdoutLine: {'line': b'[ 70%] Built target ament_cmake_python_copy_walle_controller\n'}
+[1.667757] (walle_controller) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o\x1b[0m\n'}
+[1.705084] (-) TimerEvent: {}
+[1.805601] (-) TimerEvent: {}
+[1.906142] (-) TimerEvent: {}
+[1.913892] (walle_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/walle_description', 'build', '--build-base', '/home/bojithakash68/sid_ws/build/walle_description/build', 'install', '--record', '/home/bojithakash68/sid_ws/build/walle_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bojithakash68/sid_ws/src/walle_description', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'bojithakash68', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/bojithakash68/.mujoco/mujoco210/bin:/usr/lib/nvidia', 'HOME': '/home/bojithakash68', 'OLDPWD': '/home/bojithakash68', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1560', 'SYSTEMD_EXEC_PID': '1721', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '18900', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'bojithakash68', 'JOURNAL_STREAM': '8:15058', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bojithakash68', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/bojithakash68/.mujoco/mujoco210/bin:/usr/lib/nvidia:/home/bojithakash68/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/boshit:@/tmp/.ICE-unix/1693,unix/boshit:/tmp/.ICE-unix/1693', 'INVOCATION_ID': '86ad848e25e7483799ef7e3732a77294', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LD_PRELOAD': '/usr/lib/x86_64-linux-gnu/libGLEW.so', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VUDY92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:1383570a-5db5-416d-9622-c20b03054598', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bojithakash68/sid_ws/build/walle_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bojithakash68/sid_ws/build/walle_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bojithakash68/sid_ws/install/walle_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.006298] (-) TimerEvent: {}
+[2.106893] (-) TimerEvent: {}
+[2.207455] (-) TimerEvent: {}
+[2.308041] (-) TimerEvent: {}
+[2.365006] (walle_controller) StdoutLine: {'line': b'running egg_info\n'}
+[2.366689] (walle_controller) StdoutLine: {'line': b'writing walle_controller.egg-info/PKG-INFO\n'}
+[2.367308] (walle_controller) StdoutLine: {'line': b'writing dependency_links to walle_controller.egg-info/dependency_links.txt\n'}
+[2.367824] (walle_controller) StdoutLine: {'line': b'writing top-level names to walle_controller.egg-info/top_level.txt\n'}
+[2.372674] (walle_controller) StdoutLine: {'line': b"reading manifest file 'walle_controller.egg-info/SOURCES.txt'\n"}
+[2.373974] (walle_controller) StdoutLine: {'line': b"writing manifest file 'walle_controller.egg-info/SOURCES.txt'\n"}
+[2.408200] (-) TimerEvent: {}
+[2.446792] (walle_controller) StdoutLine: {'line': b'[ 80%] Built target ament_cmake_python_build_walle_controller_egg\n'}
+[2.508352] (-) TimerEvent: {}
+[2.594300] (walle_description) StdoutLine: {'line': b'running egg_info\n'}
+[2.596181] (walle_description) StdoutLine: {'line': b'writing ../../build/walle_description/walle_description.egg-info/PKG-INFO\n'}
+[2.596774] (walle_description) StdoutLine: {'line': b'writing dependency_links to ../../build/walle_description/walle_description.egg-info/dependency_links.txt\n'}
+[2.597263] (walle_description) StdoutLine: {'line': b'writing entry points to ../../build/walle_description/walle_description.egg-info/entry_points.txt\n'}
+[2.597533] (walle_description) StdoutLine: {'line': b'writing requirements to ../../build/walle_description/walle_description.egg-info/requires.txt\n'}
+[2.597767] (walle_description) StdoutLine: {'line': b'writing top-level names to ../../build/walle_description/walle_description.egg-info/top_level.txt\n'}
+[2.602283] (walle_description) StdoutLine: {'line': b"reading manifest file '../../build/walle_description/walle_description.egg-info/SOURCES.txt'\n"}
+[2.604995] (walle_description) StdoutLine: {'line': b"writing manifest file '../../build/walle_description/walle_description.egg-info/SOURCES.txt'\n"}
+[2.605359] (walle_description) StdoutLine: {'line': b'running build\n'}
+[2.605519] (walle_description) StdoutLine: {'line': b'running build_py\n'}
+[2.605750] (walle_description) StdoutLine: {'line': b'running install\n'}
+[2.606502] (walle_description) StdoutLine: {'line': b'running install_lib\n'}
+[2.608459] (-) TimerEvent: {}
+[2.609281] (walle_description) StdoutLine: {'line': b'running install_data\n'}
+[2.610495] (walle_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.615080] (walle_description) StdoutLine: {'line': b"removing '/home/bojithakash68/sid_ws/install/walle_description/lib/python3.10/site-packages/walle_description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.615995] (walle_description) StdoutLine: {'line': b'Copying ../../build/walle_description/walle_description.egg-info to /home/bojithakash68/sid_ws/install/walle_description/lib/python3.10/site-packages/walle_description-0.0.0-py3.10.egg-info\n'}
+[2.618302] (walle_description) StdoutLine: {'line': b'running install_scripts\n'}
+[2.667655] (walle_description) StdoutLine: {'line': b"writing list of installed files to '/home/bojithakash68/sid_ws/build/walle_description/install.log'\n"}
+[2.708635] (-) TimerEvent: {}
+[2.735259] (walle_description) CommandEnded: {'returncode': 0}
+[2.755877] (walle_description) JobEnded: {'identifier': 'walle_description', 'rc': 0}
+[2.808912] (-) TimerEvent: {}
+[2.909542] (-) TimerEvent: {}
+[3.009993] (-) TimerEvent: {}
+[3.110463] (-) TimerEvent: {}
+[3.210951] (-) TimerEvent: {}
+[3.311420] (-) TimerEvent: {}
+[3.411949] (-) TimerEvent: {}
+[3.512529] (-) TimerEvent: {}
+[3.613142] (-) TimerEvent: {}
+[3.713663] (-) TimerEvent: {}
+[3.814187] (-) TimerEvent: {}
+[3.914672] (-) TimerEvent: {}
+[4.015187] (-) TimerEvent: {}
+[4.115661] (-) TimerEvent: {}
+[4.216199] (-) TimerEvent: {}
+[4.316670] (-) TimerEvent: {}
+[4.417165] (-) TimerEvent: {}
+[4.517641] (-) TimerEvent: {}
+[4.618210] (-) TimerEvent: {}
+[4.718690] (-) TimerEvent: {}
+[4.819273] (-) TimerEvent: {}
+[4.919745] (-) TimerEvent: {}
+[5.020244] (-) TimerEvent: {}
+[5.120712] (-) TimerEvent: {}
+[5.221216] (-) TimerEvent: {}
+[5.321686] (-) TimerEvent: {}
+[5.422190] (-) TimerEvent: {}
+[5.522763] (-) TimerEvent: {}
+[5.623333] (-) TimerEvent: {}
+[5.723798] (-) TimerEvent: {}
+[5.824289] (-) TimerEvent: {}
+[5.924815] (-) TimerEvent: {}
+[6.025313] (-) TimerEvent: {}
+[6.125782] (-) TimerEvent: {}
+[6.226297] (-) TimerEvent: {}
+[6.326765] (-) TimerEvent: {}
+[6.427269] (-) TimerEvent: {}
+[6.527733] (-) TimerEvent: {}
+[6.628236] (-) TimerEvent: {}
+[6.728697] (-) TimerEvent: {}
+[6.829207] (-) TimerEvent: {}
+[6.929671] (-) TimerEvent: {}
+[7.030172] (-) TimerEvent: {}
+[7.130670] (-) TimerEvent: {}
+[7.231418] (-) TimerEvent: {}
+[7.295761] (walle_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/noisy_controller.cpp:1\x1b[m\x1b[K:\n'}
+[7.296173] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/include/walle_controller/noisy_controller.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KNoisyController::NoisyController(const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.296344] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/include/walle_controller/noisy_controller.hpp:26:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNoisyController::left_wheel_prev_pos_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.296488] (walle_controller) StderrLine: {'line': b'   26 |     double \x1b[01;35m\x1b[Kleft_wheel_prev_pos_\x1b[m\x1b[K;\n'}
+[7.296618] (walle_controller) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.296746] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/include/walle_controller/noisy_controller.hpp:25:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kdouble NoisyController::right_wheel_prev_pos_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.296897] (walle_controller) StderrLine: {'line': b'   25 |     double \x1b[01;35m\x1b[Kright_wheel_prev_pos_\x1b[m\x1b[K;\n'}
+[7.297055] (walle_controller) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.297173] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/noisy_controller.cpp:9:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.297293] (walle_controller) StderrLine: {'line': b'    9 | \x1b[01;35m\x1b[KNoisyController\x1b[m\x1b[K::NoisyController(const std::string& name)\n'}
+[7.297413] (walle_controller) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.331571] (-) TimerEvent: {}
+[7.432230] (-) TimerEvent: {}
+[7.532690] (-) TimerEvent: {}
+[7.633193] (-) TimerEvent: {}
+[7.733671] (-) TimerEvent: {}
+[7.834164] (-) TimerEvent: {}
+[7.934621] (-) TimerEvent: {}
+[8.035102] (-) TimerEvent: {}
+[8.135572] (-) TimerEvent: {}
+[8.236066] (-) TimerEvent: {}
+[8.304346] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSimpleController::SimpleController(const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.304742] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:28:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kodom_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.304990] (walle_controller) StderrLine: {'line': b'   28 |     \x1b[01;31m\x1b[Kodom_pub_\x1b[m\x1b[K = create_publisher<nav_msgs::msg::Odometry>("/walle_controller/odom", 10);\n'}
+[8.305132] (walle_controller) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.316248] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:28:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.316667] (walle_controller) StderrLine: {'line': b'   28 |     odom_pub_ = create_publisher<\x1b[01;31m\x1b[Knav_msgs\x1b[m\x1b[K::msg::Odometry>("/walle_controller/odom", 10);\n'}
+[8.316834] (walle_controller) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.317018] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:28:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[8.317131] (walle_controller) StderrLine: {'line': b'   28 |     odom_pub_ = \x1b[01;31m\x1b[Kcreate_publisher<nav_msgs::msg::Odometry>\x1b[m\x1b[K("/walle_controller/odom", 10);\n'}
+[8.317227] (walle_controller) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.317323] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:28:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KSimpleController::create_publisher<<expression error> >(const char [23], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.317421] (walle_controller) StderrLine: {'line': b'   28 |     odom_pub_ = \x1b[01;31m\x1b[Kcreate_publisher<nav_msgs::msg::Odometry>("/walle_controller/odom", 10)\x1b[m\x1b[K;\n'}
+[8.317515] (walle_controller) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.317625] (walle_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[8.317731] (walle_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.317847] (walle_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.317991] (walle_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.318158] (walle_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/include/walle_controller/simple_controller.hpp:4\x1b[m\x1b[K,\n'}
+[8.318293] (walle_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:1\x1b[m\x1b[K:\n'}
+[8.318385] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.318509] (walle_controller) StderrLine: {'line': b'   73 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::create_publisher(\n'}
+[8.318620] (walle_controller) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.318714] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.318806] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:28:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[8.318933] (walle_controller) StderrLine: {'line': b'   28 |     odom_pub_ = \x1b[01;31m\x1b[Kcreate_publisher<nav_msgs::msg::Odometry>("/walle_controller/odom", 10)\x1b[m\x1b[K;\n'}
+[8.319032] (walle_controller) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.331128] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:33:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kodom_msg_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.331462] (walle_controller) StderrLine: {'line': b'   33 |     \x1b[01;31m\x1b[Kodom_msg_\x1b[m\x1b[K.header.frame_id = "odom";\n'}
+[8.331637] (walle_controller) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.336177] (-) TimerEvent: {}
+[8.351907] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:40:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransform_broadcaster_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.352232] (walle_controller) StderrLine: {'line': b'   40 |     \x1b[01;31m\x1b[Ktransform_broadcaster_\x1b[m\x1b[K = std::make_unique<tf2_ros::TransformBroadcaster>(*this);\n'}
+[8.352376] (walle_controller) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.362317] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:40:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf2_ros\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktf2Cos\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.362700] (walle_controller) StderrLine: {'line': b'   40 |     transform_broadcaster_ = std::make_unique<\x1b[01;31m\x1b[Ktf2_ros\x1b[m\x1b[K::TransformBroadcaster>(*this);\n'}
+[8.362887] (walle_controller) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.363492] (walle_controller) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[Ktf2Cos\x1b[m\x1b[K\n'}
+[8.363728] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:40:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[8.363979] (walle_controller) StderrLine: {'line': b'   40 |     transform_broadcaster_ = std::\x1b[01;31m\x1b[Kmake_unique<tf2_ros::TransformBroadcaster>\x1b[m\x1b[K(*this);\n'}
+[8.364207] (walle_controller) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.364364] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:40:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_unique<<expression error> >(SimpleController&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.364471] (walle_controller) StderrLine: {'line': b'   40 |     transform_broadcaster_ = \x1b[01;31m\x1b[Kstd::make_unique<tf2_ros::TransformBroadcaster>(*this)\x1b[m\x1b[K;\n'}
+[8.364600] (walle_controller) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[8.364773] (walle_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[8.364896] (walle_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[8.365017] (walle_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/include/walle_controller/simple_controller.hpp:4\x1b[m\x1b[K,\n'}
+[8.365114] (walle_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:1\x1b[m\x1b[K:\n'}
+[8.365266] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:961:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.365427] (walle_controller) StderrLine: {'line': b'  961 |     \x1b[01;36m\x1b[Kmake_unique\x1b[m\x1b[K(_Args&&... __args)\n'}
+[8.365551] (walle_controller) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.365721] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:961:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.365818] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:40:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[8.365944] (walle_controller) StderrLine: {'line': b'   40 |     transform_broadcaster_ = \x1b[01;31m\x1b[Kstd::make_unique<tf2_ros::TransformBroadcaster>(*this)\x1b[m\x1b[K;\n'}
+[8.366058] (walle_controller) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[8.366149] (walle_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[8.366241] (walle_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[8.366355] (walle_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/include/walle_controller/simple_controller.hpp:4\x1b[m\x1b[K,\n'}
+[8.366471] (walle_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:1\x1b[m\x1b[K:\n'}
+[8.366564] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:967:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> typename std::_MakeUniq<_Tp>::__array std::make_unique(std::size_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.366657] (walle_controller) StderrLine: {'line': b'  967 |     \x1b[01;36m\x1b[Kmake_unique\x1b[m\x1b[K(size_t __num)\n'}
+[8.366744] (walle_controller) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.366830] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:967:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.366952] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:40:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[8.367047] (walle_controller) StderrLine: {'line': b'   40 |     transform_broadcaster_ = \x1b[01;31m\x1b[Kstd::make_unique<tf2_ros::TransformBroadcaster>(*this)\x1b[m\x1b[K;\n'}
+[8.367137] (walle_controller) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[8.367245] (walle_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[8.367334] (walle_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[8.367423] (walle_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/include/walle_controller/simple_controller.hpp:4\x1b[m\x1b[K,\n'}
+[8.367511] (walle_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:1\x1b[m\x1b[K:\n'}
+[8.367598] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:973:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__invalid_type std::make_unique(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99 (deleted)\n'}
+[8.367686] (walle_controller) StderrLine: {'line': b'  973 |     \x1b[01;36m\x1b[Kmake_unique\x1b[m\x1b[K(_Args&&...) = delete;\n'}
+[8.367775] (walle_controller) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.367877] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:973:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.368006] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:40:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[8.368098] (walle_controller) StderrLine: {'line': b'   40 |     transform_broadcaster_ = \x1b[01;31m\x1b[Kstd::make_unique<tf2_ros::TransformBroadcaster>(*this)\x1b[m\x1b[K;\n'}
+[8.368185] (walle_controller) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[8.383509] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:41:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransform_stamped_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.383792] (walle_controller) StderrLine: {'line': b'   41 |     \x1b[01;31m\x1b[Ktransform_stamped_\x1b[m\x1b[K.header.frame_id = "odom";\n'}
+[8.383940] (walle_controller) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.436338] (-) TimerEvent: {}
+[8.446841] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SimpleController::jointCallback(const JointState&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.447175] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:85:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kodom_msg_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.447311] (walle_controller) StderrLine: {'line': b'   85 |     \x1b[01;31m\x1b[Kodom_msg_\x1b[m\x1b[K.header.stamp = get_clock()->now();\n'}
+[8.447426] (walle_controller) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.459129] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:94:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kodom_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.459603] (walle_controller) StderrLine: {'line': b'   94 |     \x1b[01;31m\x1b[Kodom_pub_\x1b[m\x1b[K->publish(odom_msg_);\n'}
+[8.459740] (walle_controller) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.476728] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:96:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransform_stamped_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.477042] (walle_controller) StderrLine: {'line': b'   96 |     \x1b[01;31m\x1b[Ktransform_stamped_\x1b[m\x1b[K.transform.translation.x = x_;\n'}
+[8.477182] (walle_controller) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.495643] (walle_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bojithakash68/sid_ws/src/walle_controller/src/simple_controller.cpp:103:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktransform_broadcaster_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.496071] (walle_controller) StderrLine: {'line': b'  103 |     \x1b[01;31m\x1b[Ktransform_broadcaster_\x1b[m\x1b[K->sendTransform(transform_stamped_);\n'}
+[8.496242] (walle_controller) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.536488] (-) TimerEvent: {}
+[8.636962] (-) TimerEvent: {}
+[8.737374] (-) TimerEvent: {}
+[8.837826] (-) TimerEvent: {}
+[8.938249] (-) TimerEvent: {}
+[9.038630] (-) TimerEvent: {}
+[9.139029] (-) TimerEvent: {}
+[9.239396] (-) TimerEvent: {}
+[9.339765] (-) TimerEvent: {}
+[9.440135] (-) TimerEvent: {}
+[9.540494] (-) TimerEvent: {}
+[9.640864] (-) TimerEvent: {}
+[9.741200] (-) TimerEvent: {}
+[9.841533] (-) TimerEvent: {}
+[9.941877] (-) TimerEvent: {}
+[10.042213] (-) TimerEvent: {}
+[10.142556] (-) TimerEvent: {}
+[10.242895] (-) TimerEvent: {}
+[10.343230] (-) TimerEvent: {}
+[10.443559] (-) TimerEvent: {}
+[10.543905] (-) TimerEvent: {}
+[10.644246] (-) TimerEvent: {}
+[10.744575] (-) TimerEvent: {}
+[10.844936] (-) TimerEvent: {}
+[10.945275] (-) TimerEvent: {}
+[11.045590] (-) TimerEvent: {}
+[11.145920] (-) TimerEvent: {}
+[11.246235] (-) TimerEvent: {}
+[11.346543] (-) TimerEvent: {}
+[11.446840] (-) TimerEvent: {}
+[11.547166] (-) TimerEvent: {}
+[11.647477] (-) TimerEvent: {}
+[11.747786] (-) TimerEvent: {}
+[11.832449] (walle_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1\n'}
+[11.832969] (walle_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:200: CMakeFiles/simple_controller.dir/all] Error 2\n'}
+[11.833078] (walle_controller) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[11.847862] (-) TimerEvent: {}
+[11.948101] (-) TimerEvent: {}
+[12.048399] (-) TimerEvent: {}
+[12.148698] (-) TimerEvent: {}
+[12.249001] (-) TimerEvent: {}
+[12.349290] (-) TimerEvent: {}
+[12.449582] (-) TimerEvent: {}
+[12.549884] (-) TimerEvent: {}
+[12.650233] (-) TimerEvent: {}
+[12.750544] (-) TimerEvent: {}
+[12.850902] (-) TimerEvent: {}
+[12.951193] (-) TimerEvent: {}
+[13.051482] (-) TimerEvent: {}
+[13.151804] (-) TimerEvent: {}
+[13.252190] (-) TimerEvent: {}
+[13.352602] (-) TimerEvent: {}
+[13.452939] (-) TimerEvent: {}
+[13.461350] (walle_controller) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable noisy_controller\x1b[0m\n'}
+[13.553061] (-) TimerEvent: {}
+[13.653390] (-) TimerEvent: {}
+[13.753730] (-) TimerEvent: {}
+[13.854077] (-) TimerEvent: {}
+[13.854876] (walle_controller) StdoutLine: {'line': b'[ 90%] Built target noisy_controller\n'}
+[13.857033] (walle_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.859720] (walle_controller) CommandEnded: {'returncode': 2}
+[13.866002] (walle_controller) JobEnded: {'identifier': 'walle_controller', 'rc': 2}
+[13.877010] (-) EventReactorShutdown: {}

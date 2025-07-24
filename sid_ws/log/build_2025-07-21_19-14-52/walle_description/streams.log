@@ -1,0 +1,20 @@
+[1.791s] Invoking command in '/home/bojithakash68/sid_ws/src/walle_description': PYTHONPATH=/home/bojithakash68/sid_ws/build/walle_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bojithakash68/sid_ws/install/walle_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/walle_description build --build-base /home/bojithakash68/sid_ws/build/walle_description/build install --record /home/bojithakash68/sid_ws/build/walle_description/install.log --single-version-externally-managed install_data
+[2.424s] running egg_info
+[2.425s] writing ../../build/walle_description/walle_description.egg-info/PKG-INFO
+[2.426s] writing dependency_links to ../../build/walle_description/walle_description.egg-info/dependency_links.txt
+[2.427s] writing entry points to ../../build/walle_description/walle_description.egg-info/entry_points.txt
+[2.427s] writing requirements to ../../build/walle_description/walle_description.egg-info/requires.txt
+[2.427s] writing top-level names to ../../build/walle_description/walle_description.egg-info/top_level.txt
+[2.431s] reading manifest file '../../build/walle_description/walle_description.egg-info/SOURCES.txt'
+[2.434s] writing manifest file '../../build/walle_description/walle_description.egg-info/SOURCES.txt'
+[2.435s] running build
+[2.435s] running build_py
+[2.435s] running install
+[2.436s] running install_lib
+[2.438s] running install_data
+[2.439s] running install_egg_info
+[2.443s] removing '/home/bojithakash68/sid_ws/install/walle_description/lib/python3.10/site-packages/walle_description-0.0.0-py3.10.egg-info' (and everything under it)
+[2.444s] Copying ../../build/walle_description/walle_description.egg-info to /home/bojithakash68/sid_ws/install/walle_description/lib/python3.10/site-packages/walle_description-0.0.0-py3.10.egg-info
+[2.447s] running install_scripts
+[2.491s] writing list of installed files to '/home/bojithakash68/sid_ws/build/walle_description/install.log'
+[2.540s] Invoked command in '/home/bojithakash68/sid_ws/src/walle_description' returned '0': PYTHONPATH=/home/bojithakash68/sid_ws/build/walle_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bojithakash68/sid_ws/install/walle_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/walle_description build --build-base /home/bojithakash68/sid_ws/build/walle_description/build install --record /home/bojithakash68/sid_ws/build/walle_description/install.log --single-version-externally-managed install_data
