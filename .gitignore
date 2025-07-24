@@ -1,0 +1,8 @@
+# Ignore VSCode files
+.vscode/
+*.db
+
+# Ignore ROS build artifacts and logs
+sid_ws/build/
+sid_ws/install/
+sid_ws/log/
