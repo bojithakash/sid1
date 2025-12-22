@@ -8,7 +8,7 @@
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
-    <buildtool_depend>ament_cmake_python</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
 
   <depend>rclcpp</depend>
   <depend>rclpy</depend>
@@ -21,6 +21,7 @@
   <depend>eigen</depend>
   <depend>rclcpp_action</depend>
   <depend>rclcpp_components</depend>
+  <depend>walle_msg</depend>
   
   <exec_depend>tf_transformations</exec_depend>
   <exec_depend>ros2launch</exec_depend>
@@ -32,6 +33,7 @@
   <exec_depend>ros2_controllers</exec_depend>
   <exec_depend>ros2_control</exec_depend>
   <exec_depend>twist_mux</exec_depend>
+
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

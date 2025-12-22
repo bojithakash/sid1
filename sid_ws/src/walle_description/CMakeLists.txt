@@ -10,7 +10,7 @@ find_package(ament_cmake REQUIRED)
 find_package(urdf REQUIRED)
 
 install(
-  DIRECTORY launch meshes urdf models worlds photos
+  DIRECTORY launch meshes models photos urdf worlds
   DESTINATION share/${PROJECT_NAME}
 )
 

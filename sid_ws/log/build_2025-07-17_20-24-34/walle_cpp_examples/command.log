@@ -1,2 +1,0 @@
-Invoking command in '/home/bojithakash68/sid_ws/build/walle_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bojithakash68/sid_ws/src/walle_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/bojithakash68/sid_ws/install/walle_cpp_examples
-Invoked command in '/home/bojithakash68/sid_ws/build/walle_cpp_examples' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bojithakash68/sid_ws/src/walle_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/bojithakash68/sid_ws/install/walle_cpp_examples

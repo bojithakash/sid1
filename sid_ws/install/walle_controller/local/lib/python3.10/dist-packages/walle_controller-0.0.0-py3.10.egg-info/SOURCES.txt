@@ -1,6 +1,0 @@
-setup.py
-walle_controller/__init__.py
-walle_controller.egg-info/PKG-INFO
-walle_controller.egg-info/SOURCES.txt
-walle_controller.egg-info/dependency_links.txt
-walle_controller.egg-info/top_level.txt
