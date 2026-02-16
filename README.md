@@ -9,6 +9,9 @@ An advanced autonomous mobile robot featuring a Reachy Mini-inspired reactive ro
 
 ---
 
+![02161-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/1634d582-ad10-4008-8801-74a48cb97b31)
+
+
 ## Key Features
 
 - Reactive expressive robotic head (Reachy Mini inspired)
